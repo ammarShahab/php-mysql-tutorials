@@ -87,5 +87,34 @@
         ?>
         </p>
     </p>
+
+    <h4>But u can change the global by pass the global variable in a parameter as a reference using (&) sign</h4>
+    <p>
+         $personName1 = 'Haris';//global variable <br>
+        function sayYourName(&$personName1) {//here using (&) in parameter the personName1 is passed as reference. Now if u change only the personName1 locally it will change the global variable <br>
+        $personName1 = 'Sohel';//change the local variable <br>
+
+        echo "Local: Hi $personName1"; <br>
+        } <br>
+        
+        sayYourName($personName1);//passing the global variable <br>
+        echo "Global: $personName1"
+
+    </p>
+    <?php 
+     $personName1 = 'Haris';//global variable
+        function sayYourName(&$personName1) {//here using (&) in parameter the personName1 is passed as reference. Now if u change only the personName1 locally it will change the global variable
+        $personName1 = 'Sohel';//change in local variable
+
+        echo "Local: Hi $personName1";
+        }
+        
+        sayYourName($personName1);//passing the global variable
+    ?>
+    <p>
+        <?php 
+        echo "Global: $personName1"
+        ?>
+    </p>
 </body>
 </html>
