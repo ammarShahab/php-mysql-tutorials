@@ -16,7 +16,7 @@
 6. in running server, in browser url change the "http://localhost/dashboard/" to "http://localhost:8090/dashboard/" it will run in new port.
 7. then in c: drive xampp folder in htdocs created a folder php_tuts
 8. inside the folder created index.php and practice there.
-9. to run the file in the server, type in browser url "http://localhost/php_tuts" i.e folder name of the htdocs folder. 
+9. to run the file in the server, type in browser url "http://localhost/1.php_tuts" i.e folder name of the htdocs folder. 
 -->
     <h1><?php echo "Hello Ammar"; ?></h1>
     <p><?php echo "I love Web Development"?></p>
