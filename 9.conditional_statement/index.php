@@ -40,6 +40,8 @@ $products = [
             </li>
            <?php } ?>
    <?php } ?>
+   
 </ul>
+<?php ?>
 </body>
 </html>
